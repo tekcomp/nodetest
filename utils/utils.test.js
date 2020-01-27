@@ -26,7 +26,8 @@ it('should square a number ', () => {
     //     throw new Error(`Expected ${(x * x)}, but got ${res}.`)
     // }
     // expect(res).toBe(9).toBeA('number');
-    expect([2, 3, 4]).toInclude(2);
+    // expect([2, 3, 4]).toInclude(2);
+    expect([2, 3, 4]).toExclude(5);
 });
 
 it('should expect some value', () => {
